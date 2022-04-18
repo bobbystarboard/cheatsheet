@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cheat Sheet</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+  </head>
+
+  <body>
+    <!-- Tables -->
+    <h1>HTML Tables</h1>
+      <table>
+        <colgroup>
+            <col style="width: 120px;">
+            <col>
+            <col>
+        </colgroup>
+        <thead>
+          <tr>
+            <th>Tag</th>
+            <th>Name</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="tag">&lt;table&gt;</td>
+            <td>Table</td>
+            <td>The wrapper element for all HTML tables</td>
+          </tr>
+          <tr>
+            <td class="tag">&lt;thead&gt;</td>
+            <td>Table Head</td>
+            <td>The set of rows defining the column headers in a table</td>
+          </tr>
+          <tr>
+            <td class="tag">&lt;tbody&gt;</td>
+            <td>Table Body</td>
+            <td>The set of rows containing actual table data</td>
+          </tr>
+          <tr>
+            <td class="tag">&lt;tr&gt;</td>
+            <td>Table Row</td>
+            <td>The table row container</td>
+          </tr>
+          <tr>
+            <td class="tag">&lt;td&gt;</td>
+            <td>Table Data</td>
+            <td>The table data container</td>
+          </tr>
+          <tr>
+            <td class="tag">&lt;tfoot&gt;</td>
+            <td>Table Foot</td>
+            <td>The set of rows containing the footer of a table</td>
+          </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">this is the footer! (with <span class="tag">colspan="3"</span>!)</td>
+            </tr>
+        </tfoot>
+      </table>
+      
+      <br>
+
+      <table>
+        <colgroup>
+            <col style="width: 120px;">
+            <col>
+            <col>
+        </colgroup>
+          <thead>
+              <tr>
+                  <th>Attribute</th>
+                  <th>Name</th>
+                  <th>Description</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td class="tag">rowspan</td>
+                  <td>Row Span</td>
+                  <td>Defines how many rows a <span class="tag">&lt;td&gt;</span> element should span</td>
+              </tr>
+              <tr>
+                  <td class="tag">colspan</td>
+                  <td>Column Span</td>
+                  <td>Defines how many columns a <span class="tag">&lt;td&gt;</span> element should span</td>
+              </tr>
+          </tbody>
+      </table>
+
+      <br>
+
+      <table>
+          <colgroup>
+            <col style="width: 120px;">
+            <col>
+            <col>
+        </colgroup>
+          <thead>
+              <th>Tag</th>
+              <th>Name</th>
+              <th>Description</th>
+          </thead>
+          <tbody>
+              <tr>
+                  <td class="tag">&lt;colgroup&gt;</td>
+                  <td>Column Group</td>
+                  <td>Defines a group of columns</td>
+              </tr>
+              <tr>
+                  <td class="tag">&lt;col&gt;</td>
+                  <td>Column</td>
+                  <td>Defines a column in a table</td>
+              </tr>
+          </tbody>
+          <tfoot>
+              <td colspan="3">note: limited to <span class="tag">border</span>, <span class="tag">background</span>, <span class="tag">width</span>, and <span class="tag">visibility</span></td>
+          </tfoot>
+      </table>
+  </body>
+</html>
